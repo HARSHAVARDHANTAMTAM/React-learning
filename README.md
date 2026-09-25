@@ -142,3 +142,89 @@ Then open another terminal and run:
 npx json-server data/db.json --port 8000
 
 Now you can access and explore the React learning project locally.
+
+
+## 2. Topics Covered
+
+This repository contains my React learning journey, following the React tutorial playlist by The Net Ninja.
+
+### React Fundamentals
+- React Introduction
+- Creating a React Application
+- Components and Templates
+- JSX and Dynamic Values
+- Multiple Components
+- Styling Components
+- Click Events
+- State Management with `useState`
+- Rendering Lists
+- Props
+- Reusable Components
+- Functions as Props
+
+### React Hooks
+- `useState`
+- `useEffect`
+- useEffect Dependencies
+- useEffect Cleanup
+- Custom Hooks
+
+### API & JSON Server
+- JSON Server
+- REST API Basics
+- Fetching Data
+- Fetch API
+- Handling Loading States
+- Handling Fetch Errors
+- GET Requests
+- POST Requests
+- DELETE Requests
+- CRUD Operations
+
+### React Router
+- React Router
+- Routes
+- Router Links
+- Route Parameters
+- Programmatic Navigation
+- Redirects
+- 404 / Not Found Pages
+
+### Forms
+- Controlled Inputs
+- Form Handling
+- Submit Events
+- POST Requests from Forms
+
+### Project Practice
+- Blog Application
+- Fetching Blog Data
+- Creating Blogs
+- Viewing Blog Details
+- Deleting Blogs
+- Reusable Custom Hooks
+
+
+## 📈 Learning Progress
+
+- [1] React Introduction
+- [2] Creating a React Application
+- [3] Components
+- [4] Dynamic Values
+- [5] Multiple Components
+- [6] Styling
+- [7] Click Events
+- [8] useState
+- [9] Lists
+- [10] Props
+- [11] Reusable Components
+- [12] Functions as Props
+- [13] useEffect
+- [14] JSON Server
+- [15] Fetching Data
+- [16] Custom Hooks
+- [17] React Router
+- [18] Forms
+- [19] POST Requests
+- [20] DELETE Requests
+- [21] 404 Pages
