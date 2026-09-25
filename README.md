@@ -68,3 +68,77 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## 🚀 How to Run the Project Locally
+
+Follow the steps below to run this React project on your computer.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/HARSHAVARDHANTAMTAM/React-learning.git
+
+Move into the project folder:
+
+cd React-learning
+2. Install Dependencies
+
+Run the following command in the terminal:
+
+npm install
+
+This installs all the required packages and dependencies for the React application.
+
+3. Start the React Application
+
+Run:
+
+npm start
+
+The React application will start locally.
+
+Open the URL shown in the terminal, usually:
+
+http://localhost:3000
+4. Start the JSON Server
+
+This project uses JSON Server as a simple local backend to store and manage blog data from data/db.json.
+
+Open a new terminal in the project folder and run:
+
+npx json-server data/db.json --port 8000
+
+The JSON Server will run at:
+
+http://localhost:8000
+
+The blogs API can be accessed at:
+
+http://localhost:8000/blogs
+⚠️ Important
+
+You need to keep both terminals running while using the application.
+
+Terminal 1 — React Application:
+
+npm start
+
+Terminal 2 — JSON Server:
+
+npx json-server data/db.json --port 8000
+
+The React frontend communicates with the JSON Server to fetch, create, update, and delete blog data.
+
+📌 Quick Start
+
+After cloning the repository, run:
+
+npm install
+npm start
+
+Then open another terminal and run:
+
+npx json-server data/db.json --port 8000
+
+Now you can access and explore the React learning project locally.
